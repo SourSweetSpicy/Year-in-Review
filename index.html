@@ -2,6 +2,15 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="style/main.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+        <script>
+            $(document).ready(function(){
+                $(".dropdown").hover(function(){
+                    $(".dropdown-content").css("width", $("#dropbtn").outerWidth);
+                })
+            })
+        </script>
     </head>
     <body>
         <div class="nameplate redirect">
