@@ -112,13 +112,28 @@ li a:hover:not(.active) {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
-
+    
 
     
-}
 iframe {
     width: 60%;
     height: 600px;
     margin: 0 auto;
     display: block;
+}
+
+.redirect a:link {
+	color: black;
+  }
+
+.redirect a:visited {
+	color: black;
+}
+
+.redirect a:hover {
+	color: black;
+}
+
+.redirect a:active {
+	color: black;
 }
